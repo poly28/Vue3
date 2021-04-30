@@ -7,8 +7,11 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<div id="app1">app1:{{message}}</div>
-
+		<div id="app1">
+			<ul>
+				<template1 v-for="item in itemList" :prop1="item"></template1>
+			</ul>
+		</div>
 		<script src="https://unpkg.com/vue@next"></script>
 		<script src="\js\main.js"></script>
 	</body>
